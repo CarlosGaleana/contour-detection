@@ -10,7 +10,7 @@ import logging
 
 def main():
     # read the image
-    image = cv2.imread('image_2.jpg')
+    image = cv2.imread('image-3.jpg')
     directory = "channel_experiment_output"
     parent_dir = "/data/"
     path = os.path.join(parent_dir, directory)
